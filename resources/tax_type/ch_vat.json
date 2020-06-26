@@ -10,9 +10,21 @@
             "default": true,
             "amounts": [
                 {
+                    "id": "ch_vat_standard_1995",
+                    "amount": 0.076,
+                    "start_date": "1995-01-01",
+                    "end_date": "2010-12-31"
+                },
+                {
                     "id": "ch_vat_standard_2011",
                     "amount": 0.08,
-                    "start_date": "2011-01-01"
+                    "start_date": "2011-01-01",
+                    "end_date": "2017-12-31"
+                },
+                {
+                    "id": "ch_vat_standard_2018",
+                    "amount": 0.077,
+                    "start_date": "2018-01-01"
                 }
             ]
         },
@@ -21,9 +33,21 @@
             "name": "Hotel",
             "amounts": [
                 {
+                    "id": "ch_vat_hotel_1995",
+                    "amount": 0.036,
+                    "start_date": "1995-01-01",
+                    "end_date": "2010-12-31"
+                },
+                {
                     "id": "ch_vat_hotel_2011",
                     "amount": 0.038,
-                    "start_date": "2011-01-01"
+                    "start_date": "2011-01-01",
+                    "end_date": "2017-12-31"
+                },
+                {
+                    "id": "ch_vat_hotel_2018",
+                    "amount": 0.037,
+                    "start_date": "2018-01-01"
                 }
             ]
         },
@@ -31,6 +55,12 @@
             "id": "ch_vat_reduced",
             "name": "Reduced",
             "amounts": [
+                {
+                    "id": "ch_vat_reduced_1995",
+                    "amount": 0.024,
+                    "start_date": "1995-01-01",
+                    "end_date": "2010-12-31"
+                },
                 {
                     "id": "ch_vat_reduced_2011",
                     "amount": 0.025,
